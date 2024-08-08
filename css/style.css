@@ -146,6 +146,18 @@ section{
    background-position: center;
    text-align: center;
 }
+.homeheading{
+   min-height: 30vh;
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   justify-content: center;
+   gap:1rem;
+   background: url(../images/homebanner.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+}
 
 .heading h3{
    font-size: 5rem;
