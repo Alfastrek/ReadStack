@@ -31,8 +31,10 @@ if (isset($message)) {
     </div>
 
     <div class="header-2">
-        <div class="flex">
-            <a href="home.php" class="logo">ReadStack</a>
+    <div class="flex">
+        <a href="home.php" class="logo">
+        <img src="images\Logo.png" alt="ReadStack Logo" class="logo-image">
+        Read<span class="logo-stack">Stack</span>
 
             <nav class="navbar">
                 <a href="home.php">Home</a>
