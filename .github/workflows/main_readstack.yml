@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy PHP app to Azure Web App - ReadStack
+name: Build and deploy PHP app to Azure Web App - readstack
 
 on:
   push:
@@ -61,15 +61,15 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_087A3788A4A641D7868EDC1C98C8C4F3 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_4C6554F249494A4EA1FB4F887B028AF4 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_94D36D0497684A4C866B8640B8B6CA7A }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_6F1DBAEB2EC740C6B8BDD98473B29B30 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_AF9F46ED870D4FED97058A178636F61A }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_053CFF57BD9143C2931E409EE3C2302B }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'ReadStack'
+          app-name: 'readstack'
           slot-name: 'Production'
           package: .
           
