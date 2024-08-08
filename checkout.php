@@ -64,6 +64,7 @@ if(isset($_POST['order_btn'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+   <link rel="icon" href="Favicon.ico" type="image/x-icon">
 
 </head>
 <body>
@@ -92,7 +93,7 @@ if(isset($_POST['order_btn'])){
       echo '<p class="empty">your cart is empty</p>';
    }
    ?>
-   <div class="grand-total"> grand total : <span>$<?php echo $grand_total; ?>/-</span> </div>
+   <div class="grand-total"> Grand Total : <span>$<?php echo $grand_total; ?>/-</span> </div>
 
 </section>
 
