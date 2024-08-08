@@ -1,6 +1,14 @@
 <?php
 // public/index.php
+include 'config.php';
 
-// Redirect to shop.php by default
-header("Location: home.php");
-exit();
+session_start();
+
+$user_id = $_SESSION['user_id'];
+
+if(!isset($user_id)){
+   header('location:login.php');
+}
+else {
+   header('location:home.php');
+}
