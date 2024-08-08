@@ -1,6 +1,9 @@
-
 <?php
+$conn = mysqli_connect('readstack.mysql.database.azure.com', 'alfastrek', 'Abhinav@1703', 'shop_db', 3306);
 
-$conn = mysqli_connect('localhost','root','','shop_db') or die('connection failed');
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
 
+echo "Connected successfully";
 ?>
