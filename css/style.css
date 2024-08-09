@@ -123,7 +123,7 @@ section {
 }
 
 .option-btn {
-  background-color: var(--orange);
+  background-color: var(--purple);
 }
 
 .delete-btn {
@@ -295,7 +295,7 @@ section {
 .header-2 .flex .logo .logo-image {
    height: 50px; 
    width: auto;
-   margin-right: 10px; 
+   margin-right: 2px; 
 }
 .header-2 .flex .logo .logo-stack {
    transform: skew(-10deg);

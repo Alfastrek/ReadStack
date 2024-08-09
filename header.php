@@ -23,7 +23,7 @@ if (isset($message)) {
                 <a href="https://www.linkedin.com/in/aradhyashukla/" class="fab fa-linkedin"></a>
             </div>
             <?php if (!isset($_SESSION['user_id'])): ?>
-                <p><a href="login.php">Login</a> | <a href="register.php">Register</a></p>
+                <p><a href="login.php">Login</a> | <a href="register.php">Sign Up</a></p>
             <?php else: ?>
                 <p><a href="logout.php">Logout</a></p>
             <?php endif; ?>

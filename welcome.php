@@ -41,7 +41,6 @@ if ($user_id) {
    </div>
 
 </section>
-
 <section class="products">
 
    <h1 class="title">latest products</h1>
@@ -57,6 +56,7 @@ if ($user_id) {
       <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
       <div class="name"><?php echo $fetch_products['name']; ?></div>
       <div class="price">$<?php echo $fetch_products['price']; ?>/-</div>
+      <a href="login.php" class="option-btn">Buy Now</a>
      </div>
       <?php
             }
@@ -65,9 +65,8 @@ if ($user_id) {
          }
       ?>
    </div>
-
    <div class="load-more" style="margin-top: 2rem; text-align:center">
-      <a href="shop.php" class="option-btn">Load More</a>
+      <a href="shop.php" style="font-style: italic;"class="option-btn">Load More</a>
    </div>
 
 </section>
@@ -77,16 +76,107 @@ if ($user_id) {
    <div class="flex">
 
       <div class="image">
-         <img src="images/about-img.jpg" alt="">
+         <img src="images/about-img.jpg" alt="About ReadStack">
       </div>
 
       <div class="content">
-         <h3>About Us</h3>
-         <p>One Stop Solution for all the majestic readers out there. Choose from a wide variety and don't forget to rate your experience!</p>
+         <h3>About ReadStack</h3>
+         <p>At ReadStack, we believe that every reader deserves a gateway to new worlds, fresh perspectives, and endless adventures. Whether you’re a fan of thrilling horror, imaginative fiction, or cutting-edge science, our curated collection offers something for everyone. We pride ourselves on being more than just a bookstore; we are a community of avid readers and passionate learners.Our mission is to provide an unparalleled reading experience, where quality meets diversity.</p>
+
          <a href="about.php" class="btn">Read More</a>
       </div>
 
    </div>
+
+</section>
+
+
+<section class="reviews">
+
+   <h1 class="title">client's reviews</h1>
+
+   <div class="box-container">
+
+    <div class="box">
+        <img src="images/pic-1.png" alt="">
+        <p>ReadStack has an amazing collection of books. I found exactly what I was looking for with ease. Highly recommended!</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <h3>Jane Smith</h3>
+    </div>
+
+    <div class="box">
+        <img src="images/pic-2.png" alt="">
+        <p>The user interface is so smooth and intuitive. Shopping for books online has never been this easy. Great job, ReadStack!</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <h3>Michael Johnson</h3>
+    </div>
+
+    <div class="box">
+        <img src="images/pic-3.png" alt="">
+        <p>Excellent customer service and a fantastic selection of books. I love the personalized recommendations!</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <h3>Emily Davis</h3>
+    </div>
+
+    <div class="box">
+        <img src="images/pic-4.png" alt="">
+        <p>I was impressed with how quickly I received my order. The books were well-packaged and in perfect condition. Thank you, ReadStack!</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <h3>David Brown</h3>
+    </div>
+
+    <div class="box">
+        <img src="images/pic-5.png" alt="">
+        <p>ReadStack’s collection is diverse, and the prices are unbeatable. I’ve found some real gems here that I couldn’t find elsewhere.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <h3>Sarah Wilson</h3>
+    </div>
+
+    <div class="box">
+        <img src="images/pic-6.png" alt="">
+        <p>The community aspect of ReadStack is wonderful. I’ve joined book discussions and made new friends who share my passion for reading.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <h3>Linda Thompson</h3>
+    </div>
+
+</div>
+
 
 </section>
 
