@@ -39,7 +39,7 @@ Welcome to **ReadStack**! A full-featured bookstore management website where use
 
 ## 🌐 Live Demo
 
-You can view the live demo of ReadStack deployed on Azure at [ReadStack Live Demo](https://your-azure-deployment-link.azurewebsites.net).
+You can view the live demo of ReadStack deployed on Azure at [ReadStack Live Demo](https://readstack.aradhya.site).
 
 ## 🤝 Contributing
 
