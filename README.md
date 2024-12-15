@@ -37,10 +37,6 @@ Welcome to **ReadStack**! A full-featured bookstore management website where use
 - **PHP**: For server-side scripting and managing database interactions.
 - **MySQL**: For storing user data, orders, products, and more.
 
-## 🌐 Live Demo
-
-You can view the live demo of ReadStack deployed on Azure at [ReadStack Live Demo](https://readstack.aradhya.site).
-
 ## 🤝 Contributing
 
 Feel free to contribute to the project by submitting a pull request. We welcome all contributions!
